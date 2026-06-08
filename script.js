@@ -23,7 +23,8 @@ document.addEventListener("click", () => {
 });
 
 // bottone back
-function goBack() {
+function goBack(event) {
+  event.stopPropagation(); // IMPORTANTISSIMO
   showScreen("idle");
 }
 
