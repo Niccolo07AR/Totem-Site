@@ -15,7 +15,7 @@ function resetTimer() {
 }
 
 // click SOLO se sei in idle
-document.addEventListener("click", () => {
+document.addEventListener("click", (e) => {
   if (document.getElementById("idle").classList.contains("active")) {
     showScreen("home");
   }
