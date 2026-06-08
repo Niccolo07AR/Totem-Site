@@ -40,7 +40,10 @@ img {
   bottom: 50px;
   color: white;
   font-size: 2rem;
-  background: rgba(0,0,0,0.5);
-  padding: 10px 20px;
-  border-radius: 10px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
 }
