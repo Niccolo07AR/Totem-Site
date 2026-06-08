@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Totem</title>
-
-  <!-- ✅ CSS corretto -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
-    <h1>Welcome</h1>
-    <p>Aboard</p>
+<!--IDLE-->
+<div id="idle" class="screen active">
+  <img id="slide" src="img1.jpg">
+  <p>Touch the screen to explore</p>
+</div>
 
-    <div id="clock"></div>
-  </div>
+<!--HOME-->
+<div id="home" class="screen">
+  <h1>Welcome</h1>
+  <button onclick="goBack()">Back</button>
+</div>
 
-  <!-- ✅ JS corretto -->
-  <script src="script.js"></script>
-
+<script src="script.js"></script>
 </body>
 </html>
